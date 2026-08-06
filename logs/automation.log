@@ -1,0 +1,5 @@
+2026-07-15 21:02:09 TRACE Log4jDemo - This is trace message
+2026-07-15 21:02:09 INFO  Log4jDemo - This is information message
+2026-07-15 21:02:09 ERROR Log4jDemo - This is an error message
+2026-07-15 21:02:09 WARN  Log4jDemo - This is a warning message
+2026-07-15 21:02:09 FATAL Log4jDemo - This is a fatal message

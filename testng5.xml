@@ -1,0 +1,16 @@
+<!-- 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+-->
+<suite name="Suite1">
+  <test  name="Test1">
+ <!--  To run this XML properly we need to modify test optional
+   <parameter name = "My name" value= "Automation"> </parameter> -->
+  
+  <classes>
+  <class name = "demo.TestNGParametersDemo">
+  </class>
+  
+  </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite1 -->
