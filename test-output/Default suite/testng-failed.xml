@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.TestNGRetryFailedDemo">
+      <class name="test.TestNGDemo2">
         <methods>
-          <include name="test3"/>
+          <include name="FacebookLogIn3"/>
+          <include name="FacebookLogIn2"/>
+          <include name="tearDownTest"/>
+          <include name="setUpTest"/>
         </methods>
-      </class> <!-- demo.TestNGRetryFailedDemo -->
+      </class> <!-- test.TestNGDemo2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

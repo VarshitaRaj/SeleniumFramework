@@ -1,13 +1,14 @@
 package test;
 
 import org.testng.annotations.Test;
+
+import pages.FacebookLoginPage;
+import pages.FacebookLoginPageObject;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-
-
-import pages.FacebookLoginPageObject;
 
 public class TestNGDemo {
 	private static WebDriver driver = null;
@@ -18,10 +19,11 @@ public class TestNGDemo {
 	}
 	
 	@Test
- public static void FacebookLogIn() {
+ public static void FacebookLogIn() throws InterruptedException {
 	 //WebDriver driver = new ChromeDriver();
-	 FacebookLoginPageObject LoginPage = new FacebookLoginPageObject (driver);
+		FacebookLoginPageObject LoginPage = new FacebookLoginPageObject (driver);
 	 driver.get("https://facebook.com/");
+	 Thread.sleep(5000);
 	 LoginPage.setTextInEmail("ABC@gmail.com");
 	 LoginPage.setTextInPassword("Test123");
 	 System.out.println("This is Test Block");
