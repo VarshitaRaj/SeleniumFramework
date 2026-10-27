@@ -37,6 +37,7 @@ public class DesiredCapabilities_Demo {
 				WebElement Password = driver.findElement(By.name("pass"));
 				Email.sendKeys("Abc.FB@gmail.com");
 				Password.sendKeys("FACE123");
+				System.out.println("This is to check modification and push the file in github");
 		}
 		
 		@AfterTest
@@ -44,5 +45,7 @@ public class DesiredCapabilities_Demo {
 				driver.quit();
 		
 	}
+		
+		
 
 }
