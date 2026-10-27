@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 public class FacebookLoginPageObject {
 	WebDriver driver = null;
 	
-	By textbox_email = By.id("email");
-	By textbox_password = By.id("pass");
+	By textbox_email = By.id("_R_c9l6neappb6amH1_");
+	By textbox_password = By.name("pass");
 	
 	public  FacebookLoginPageObject (WebDriver driver) {
 		this.driver = driver ;
